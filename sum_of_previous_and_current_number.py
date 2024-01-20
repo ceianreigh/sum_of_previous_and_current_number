@@ -3,9 +3,11 @@
 # pseudocode
 
 # create a variable called previous_number and set it to 0
+previous_number = 0
 
 # create a for loop that iterates 10 times
-
+for i in range(10):
+    print(i)
 # create a variable called current_number and set it to i
 
 # create a variable called sum_of_previous_and_current_number and set it to previous_number + current_number

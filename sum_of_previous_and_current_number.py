@@ -7,11 +7,14 @@ previous_number = 0
 
 # create a for loop that iterates 10 times
 for i in range(10):
-    print(i)
-# create a variable called current_number and set it to i
+    # create a variable called current_number and set it to i
+    current_number = i
 
-# create a variable called sum_of_previous_and_current_number and set it to previous_number + current_number
+    # create a variable called sum_of_previous_and_current_number and set it to previous_number + current_number
+    sum_of_previous_and_current_number = previous_number + current_number
 
-# print sum_of_previous_and_current_number
+    # print sum_of_previous_and_current_number
+    print(sum_of_previous_and_current_number)
 
-# update previous_number to current_number
+    # update previous_number to current_number
+    previous_number = current_number
